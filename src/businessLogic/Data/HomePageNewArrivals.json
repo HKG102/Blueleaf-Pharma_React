@@ -1,0 +1,24 @@
+{
+    "images": [
+        {
+        "id": 1,
+        "url": "src/assets/Neurovet-100-ml-Injection.jpg",
+        "description": "Neurovet 100 ml Injection"
+        },
+        {
+        "id": 2,
+        "url": "src/assets/Moxicruz-300-Mg-Injection.jpg",
+        "description": "Moxicruz 300 Mg Injection"
+        },
+        {
+        "id": 3,
+        "url": "src/assets/Haemshot-1lt-Liquid.jpg",
+        "description": "Haemshot 1lt Liquid"
+        },
+        {
+        "id": 4,
+        "url": "src/assets/Apptosacc-Powder.jpg",
+        "description": "Apptosacc Powder"
+        }
+    ]
+}

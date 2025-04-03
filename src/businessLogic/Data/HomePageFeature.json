@@ -1,0 +1,14 @@
+{
+    "images": [
+        {
+        "id": 1,
+        "url": "src/assets/Bluprox-SP-Bolus-Injection.jpg",
+        "description": "Bluprox SP Bolus Injection"
+        },
+        {
+        "id": 2,
+        "url": "src/assets/Mammizox-3g-Injection.jpg",
+        "description": "Mammizox 3g Injection"
+        }
+    ]
+}
