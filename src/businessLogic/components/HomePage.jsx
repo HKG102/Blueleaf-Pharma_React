@@ -3,6 +3,11 @@ import Carousel from "../sharedComponents/Carousel";
 import mapBg from "../../assets/line.jpg";
 import HomePageNewArrivals from "../Data/HomePageNewArrivals"; // Import your data
 import HomePageFeature from "../Data/HomePageFeature"; // Import your data
+import { Swiper, SwiperSlide } from "swiper/react"; // Import Swiper React components
+import "swiper/css"; // Import Swiper styles
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation } from "swiper/modules"; // Import Swiper modules
 
 function HomePage() {
   const [hoveredIndex, sethoverIndex] = useState(null);
@@ -113,7 +118,7 @@ function HomePage() {
             <>
               <button
                 onClick={handleDataSet1}
-                className=" bg-white border font-semibold text-neutral-500 py-3 px-5 rounded-lg hover:bg-blue-600 hover:text-white transition cursor-pointer"
+                className="bg-white border font-semibold text-neutral-500 py-3 px-5 rounded-lg hover:bg-blue-600 hover:text-white transition cursor-pointer"
               >
                 New Arrivals
               </button>
@@ -176,7 +181,81 @@ function HomePage() {
               excellent storage facility and supply chain management.
             </p>
           </div>
+          <div className="flex pb-5 text-xl font-bold">
+            <h2 className=" text-justify px-50">Quality Assurance</h2>
+          </div>
+          <div className="flex justify-center pb-5 text-xl font-thin">
+            <p className=" text-justify px-50">
+              We are in the pharmaceutical industry, where quality plays the
+              most important role. It creates the differentiating factor between
+              a good and an average company. Thus, we maintain total quality
+              assurance for the products we deliver. We place a high value on
+              the quality of our pharmaceutical products because we believe that
+              without it, we would not be able to reach our ultimate objective
+              of becoming the top firm in this sector. At each level of
+              production, all items are tested and rechecked. Furthermore, we
+              check products in the post-production stage and always adhere to
+              international standards.
+            </p>
+          </div>
+          <div className="flex pb-5 text-xl font-bold">
+            <h2 className=" text-justify px-50">Why Us?</h2>
+          </div>
+          <div className="flex justify-center pb-5 text-xl font-thin">
+            <p className=" text-justify px-50">
+              All our pharmaceutical products such as Kentaliv 100 Ml Injection,
+              Bluprox P Injection 100ml, Estrumin 7 Bolus Injection, Moxicruz
+              Injection 300 Mg, Apptosacc Tablet and many more are manufactured
+              under the supervision of skilled professionals who are experts in
+              their fields. Care is taken to use the latest technology available
+              and are subjected to stringent quality tests in order to produce
+              flawless products. We make sure we serve our clients well and
+              maintain a long-term relationship with them. Some of the reasons
+              for our success in the industry are:
+            </p>
+          </div>
+          <div className="flex pb-5 text-xl font-normal">
+            <ul className="list-disc text-justify px-55">
+              <li>Premium quality products with 100% quality assurance</li>
+              <li>Wide distribution network</li>
+              <li>Affordable pricing</li>
+              <li>Well-managed storage system</li>
+              <li>Excellent supply chain management</li>
+            </ul>
+          </div>
         </div>
+      </div>
+
+      <div className="w-full px-50 text-xl font-bold pt-5">
+        <h2 className="">Most Popular product</h2>
+      </div>
+
+      <div className="w-full max-w-6xl mx-auto py-10">
+        <Swiper
+          modules={[Navigation]}
+          navigation
+          slidesPerView={3}
+          spaceBetween={100}
+          loop={true}
+          className="mySwiper"
+        >
+          {HomePageNewArrivals.images.map((img) => (
+            <SwiperSlide key={img.id}>
+              <div className="border-2 border-gray-300 rounded-lg shadow-md overflow-hidden">
+                <img
+                  src={img.url}
+                  alt={img.description}
+                  className="w-full object-cover hover:scale-105 transition-transform duration-500 cursor-pointer"
+                />
+                <div className="flex justify-center">
+                  <button className="w-full bg-gray-800 text-white font-semibold py-3 px-5 hover:bg-black transition cursor-pointer">
+                    {img.description}
+                  </button>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );
