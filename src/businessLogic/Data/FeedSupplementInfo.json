@@ -1,0 +1,14 @@
+{
+    "images": [
+        {
+        "id": 1,
+        "url": "src/assets/Apptosacc-Powder.jpg",
+        "description": "Apptosacc Powder"
+        },
+        {
+        "id": 2,
+        "url": "src/assets/Haemshot-1lt-Liquid.jpg",
+        "description": "Haemshot 1lt Liquid"
+        }
+    ]
+}

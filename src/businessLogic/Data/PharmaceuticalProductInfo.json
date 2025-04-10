@@ -1,0 +1,54 @@
+{
+    "images": [
+        {
+        "id": 1,
+        "url": "src/assets/Bluprox-SP-Bolus-Injection.jpg",
+        "description": "Bluprox SP Bolus Injection"
+        },
+        {
+        "id": 2,
+        "url": "src/assets/Bluprox-SP-Bolus-Injection.jpg",
+        "description": "Bluprox SP Bolus Injection"
+        },
+        {
+        "id": 3,
+        "url": "src/assets/Bupazon-Injection.jpg",
+        "description": "Bupazon Injection"
+        },
+        {
+        "id": 4,
+        "url": "src/assets/Ceftizaid-3-375-g-Injection.jpg",
+        "description": "Ceftizaid 3.375 g Injection"
+        },
+        {
+        "id": 5,
+        "url": "src/assets/Estrumin-7-Bolus-Feed-Supplement.jpg",
+        "description": "Estrumin 7 Bolus Feed Supplement"
+        },
+        {
+        "id": 6,
+        "url": "src/assets/Kentaliv-100-Ml-Injection.jpg",
+        "description": "Kentaliv 100 Ml Injection"
+        },
+        {
+        "id": 7,
+        "url": "src/assets/Mammizox-3g-Injection.jpg",
+        "description": "Mammizox 3g Injection"
+        },
+        {
+        "id": 8,
+        "url": "src/assets/Moxicruz-4-5g-Injection.jpg",
+        "description": "Moxicruz 4.5g Injection"
+        },
+        {
+        "id": 9,
+        "url": "src/assets/Moxicruz-300-Mg-Injection.jpg",
+        "description": "Moxicruz 300 Mg Injection"
+        },
+        {
+        "id": 10,
+        "url": "src/assets/Neurovet-100-ml-Injection.jpg",
+        "description": "Neurovet 100 ml Injection"
+        }
+    ]
+}

@@ -67,9 +67,9 @@ function HomePage() {
             <p className="text-white text-center hover:text-neutral-300">
               {image.description}
             </p>
-            <p className="text-white text-center underline hover:text-neutral-300 hover:no-underline">
+            <button className="text-white text-center underline hover:text-neutral-300 hover:no-underline">
               Send Inquiry
-            </p>
+            </button>
           </div>
         </div>
       </div>
