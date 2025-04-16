@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Carousel from "../sharedComponents/Carousel";
+import { Link, useLocation } from "react-router-dom";
 import mapBg from "../../assets/line.jpg";
 import HomePageNewArrivals from "../Data/HomePageNewArrivals"; // Import your data
 import HomePageFeature from "../Data/HomePageFeature"; // Import your data
@@ -10,6 +11,15 @@ import "swiper/css/pagination";
 import { Navigation } from "swiper/modules"; // Import Swiper modules
 
 function HomePage() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [pathname]);
+  
   const [hoveredIndex, sethoverIndex] = useState(null);
   const [newArrivalActive, setnewArrivalActive] = useState(true);
   const [featureActive, setfeatureActive] = useState(false);
@@ -143,9 +153,9 @@ function HomePage() {
       )}
 
       <div className="flex justify-center font-thin pt-10">
-        <button className="bg-blue-600 text-white font-semibold py-3 px-5 rounded-lg hover:bg-blue-700 transition cursor-pointer">
+        <Link  to="/products" className="bg-blue-600 text-white font-semibold py-3 px-5 rounded-lg hover:bg-blue-700 transition cursor-pointer">
           Click to View All Products
-        </button>
+        </Link>
       </div>
 
       <div className="w-full pt-10">

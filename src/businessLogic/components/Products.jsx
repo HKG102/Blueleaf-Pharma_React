@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PharmaceuticalProductsInfo from "../Data/PharmaceuticalProductInfo";
 import FeedSupplementInfo from "../Data/FeedSupplementInfo.json";
 import { IoIosArrowForward } from "react-icons/io";
+import { useLocation, Link } from "react-router-dom";
 
 const ProductList = ({ list }) => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [pathname]);
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {list.images.map((product, index) => (
@@ -60,9 +70,16 @@ function Products() {
                 </div>
               </div>
               <div className="w-full flex justify-end pr-3">
-                <button className=" text-white bg-red-600 text-xl rounded-xl px-4 py-2 border border-red-600 hover:bg-red-800 hover:border-red-800 transition cursor-pointer">
+                <Link
+                  to="/productsCatregory"
+                  state={{
+                    category: "Pharmaceutical Injection",
+                    data: PharmaceuticalProductsInfo,
+                  }}
+                  className=" text-white bg-red-600 text-xl rounded-xl px-4 py-2 border border-red-600 hover:bg-red-800 hover:border-red-800 transition cursor-pointer"
+                >
                   ...More
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -95,9 +112,10 @@ function Products() {
                 </div>
               </div>
               <div className="w-full flex justify-end pr-3">
-                <button className=" text-white bg-red-600 text-xl rounded-xl px-4 py-2 border border-red-600 hover:bg-red-800 hover:border-red-800 transition cursor-pointer">
+                <Link to="/productsCatregory"
+                    state={{ category: "Feed Supplement", data: FeedSupplementInfo }} className=" text-white bg-red-600 text-xl rounded-xl px-4 py-2 border border-red-600 hover:bg-red-800 hover:border-red-800 transition cursor-pointer">
                   ...More
-                </button>
+                </Link>
               </div>
             </div>
           </div>

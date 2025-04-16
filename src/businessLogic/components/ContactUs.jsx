@@ -1,12 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { MdOutlinePerson } from "react-icons/md";
 import { FaMobileScreenButton } from "react-icons/fa6";
 import { CiLocationArrow1 } from "react-icons/ci";
+import { useLocation } from "react-router-dom";
 
 function ContactUs() {
   const [countryCode, setCountryCode] = useState("+91");
   const isIndia = countryCode === "+91";
   const [description, setDescription] = useState("");
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [pathname]);
 
   return (
     <div className="px-4 md:px-10 lg:px-20">

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaMinus } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
-// import { PharmaceuticalProductsInfo } from "../Data/PharmaceuticalProductInfo";
-// import { FeedSupplementInfo } from "../Data/FeedSupplementInfo.json";
+import  PharmaceuticalProductsInfo  from "../Data/PharmaceuticalProductInfo";
+import  FeedSupplementInfo  from "../Data/FeedSupplementInfo.json";
 
 function Header() {
   const [hover, setHover] = useState(false);
@@ -64,21 +64,21 @@ function Header() {
 
               {/* Dropdown Menu */}
               {hover && (
-                <div className="absolute left-0 top-full mt-1 bg-white text-black rounded shadow-lg w-52 z-50">
-                  {/* <Link
+                <div className="absolute left-0 top-full mt-0 bg-white text-black rounded shadow-lg w-52 z-50">
+                  <Link
                     to="/productsCatregory"
                     state={{ category: "Pharmaceutical Injection", data: PharmaceuticalProductsInfo }}
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-2 hover:bg-gray-100 hover:rounded"
                   >
                     Pharmaceutical Injection
-                  </Link> */}
-                  {/* <Link
+                  </Link>
+                  <Link
                     to="/productsCatregory"
                     state={{ category: "Feed Supplement", data: FeedSupplementInfo }}
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-2 hover:bg-gray-100 hover:rounded"
                   >
                     Feed Supplement
-                  </Link> */}
+                  </Link>
                 </div>
               )}
             </div>

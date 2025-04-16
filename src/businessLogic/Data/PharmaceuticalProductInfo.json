@@ -2,53 +2,113 @@
     "images": [
         {
         "id": 1,
-        "url": "src/assets/Bluprox-SP-Bolus-Injection.jpg",
-        "description": "Bluprox SP Bolus Injection"
+        "url": "src/assets/Bluprox-P-100ml-Injection.jpg",
+        "description": "Bluprox P 100ml Injection",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Injection",
+        "physicalForm": "Liquid",
+        "price": 250,
+        "type": "Bottle"
         },
         {
         "id": 2,
         "url": "src/assets/Bluprox-SP-Bolus-Injection.jpg",
-        "description": "Bluprox SP Bolus Injection"
+        "description": "Bluprox SP Bolus Injection",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Injection",
+        "physicalForm": "Liquid",
+        "price": 2100,
+        "type": "Box"
         },
         {
         "id": 3,
         "url": "src/assets/Bupazon-Injection.jpg",
-        "description": "Bupazon Injection"
+        "description": "Bupazon Injection",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Injection",
+        "physicalForm": "Liquid",
+        "price": 1150,
+        "type": "Bottle"
         },
         {
         "id": 4,
         "url": "src/assets/Ceftizaid-3-375-g-Injection.jpg",
-        "description": "Ceftizaid 3.375 g Injection"
+        "description": "Ceftizaid 3.375 g Injection",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Injection",
+        "physicalForm": "Liquid",
+        "price": 425,
+        "type": "Bottle"
         },
         {
         "id": 5,
         "url": "src/assets/Estrumin-7-Bolus-Feed-Supplement.jpg",
-        "description": "Estrumin 7 Bolus Feed Supplement"
+        "description": "Estrumin 7 Bolus Feed Supplement",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Health Supplements",
+        "physicalForm": "Liquid",
+        "price": 185,
+        "type": "Box"
         },
         {
         "id": 6,
         "url": "src/assets/Kentaliv-100-Ml-Injection.jpg",
-        "description": "Kentaliv 100 Ml Injection"
+        "description": "Kentaliv 100 Ml Injection",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Injection",
+        "physicalForm": "Liquid",
+        "price": 195,
+        "type": "Bottle"
         },
         {
         "id": 7,
         "url": "src/assets/Mammizox-3g-Injection.jpg",
-        "description": "Mammizox 3g Injection"
+        "description": "Mammizox 3g Injection",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Injection",
+        "physicalForm": "Liquid",
+        "price": 845,
+        "type": "Bottle"
         },
         {
         "id": 8,
         "url": "src/assets/Moxicruz-4-5g-Injection.jpg",
-        "description": "Moxicruz 4.5g Injection"
+        "description": "Moxicruz 4.5g Injection",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Injection",
+        "physicalForm": "Liquid",
+        "price": 325,
+        "type": "Bottle"
         },
         {
         "id": 9,
         "url": "src/assets/Moxicruz-300-Mg-Injection.jpg",
-        "description": "Moxicruz 300 Mg Injection"
+        "description": "Moxicruz 300 Mg Injection",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Injection",
+        "physicalForm": "Liquid",
+        "price": 75,
+        "type": "Bottle"
         },
         {
         "id": 10,
         "url": "src/assets/Neurovet-100-ml-Injection.jpg",
-        "description": "Neurovet 100 ml Injection"
+        "description": "Neurovet 100 ml Injection",
+        "supply": "500 per week",
+        "storage": "Normal Temperature",
+        "drugType": "Injection",
+        "physicalForm": "Liquid",
+        "price": 275,
+        "type": "Bottle"
         }
     ]
 }
