@@ -9,7 +9,10 @@
         "drugType": "Injection",
         "physicalForm": "Liquid",
         "price": 250,
-        "type": "Bottle"
+        "type": "Bottle",
+        "quantity": 100,
+        "supplyAbility": "500 per week",
+        "productDescription": "We are an affluent enterprise in this domain, committed to offering Bluprox P 100ml Injection which is a non anti-inflammatory (NSAID) drug belonging to the oxicam class. Piroxicam Tablet is utilized as an analgesic, to relieve arthritis symptoms, and to ease postoperative pain. It is also very effective in the treatment of various cancers such as colon, prostate, and bladder cancer in dogs and cats. Further, our esteemed clients can avail of this Bluprox P 100ml Injection from us at economical prices."
         },
         {
         "id": 2,

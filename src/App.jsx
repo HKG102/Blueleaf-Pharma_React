@@ -8,6 +8,7 @@ import ContactUs from "./businessLogic/components/ContactUs.jsx";
 import Footer from "./businessLogic/sharedComponents/Footer.jsx";
 import SiteMap from "./businessLogic/components/SiteMap.jsx";
 import CategoriesProduct from "./businessLogic/components/CategoriesProduct.jsx";
+import SpecificProduct from "./businessLogic/components/SpecificProduct.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<ContactUs/>}/>
         <Route path="/siteMap" element={<SiteMap/>}/>
         <Route path="/productsCatregory" element={<CategoriesProduct/>}/>
+        <Route path="/:id" element={<SpecificProduct/>}/>
       </Routes>
       <Footer/>
     </div>

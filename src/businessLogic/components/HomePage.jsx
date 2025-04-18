@@ -34,9 +34,9 @@ function HomePage() {
     setfeatureActive(true);
   };
 
-  const homePageNewArrivals = HomePageNewArrivals.images.map((image) => {
+  const homePageNewArrivals = HomePageNewArrivals.images.map((image,index) => {
     return (
-      <div
+      <div key={index}
         className="relative w-full md:w-1/6 mb-3 mr-3 pr-1 cursor-pointer overflow-hidden"
         onMouseEnter={() => sethoverIndex(image.id)}
         onMouseLeave={() => sethoverIndex(null)}

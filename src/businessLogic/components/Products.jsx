@@ -17,13 +17,17 @@ const ProductList = ({ list }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {list.images.map((product, index) => (
-        <div
+        <Link
+        to={`/${product.id}`}
+        state={{
+          data: product,
+        }}
           key={index}
           className="flex items-start gap-2 hover:underline cursor-pointer"
         >
           <IoIosArrowForward className="mt-1 text-blue-500" />
           <span className="text-sm sm:text-base">{product.description}</span>
-        </div>
+        </Link>
       ))}
     </div>
   );

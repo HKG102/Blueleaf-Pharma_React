@@ -12,7 +12,7 @@ function Header() {
     <>
       <nav className=" bg-blue-600 text-white flex justify-between">
         <div className="flex items-start px-10 py-1">
-          <img src="src\assets\logo.jpg" className="w-25" alt="Company Logo" />
+          <img src="src/assets/logo.jpg" className="w-25" alt="Company Logo" />
           <div className="m-5">
             <div className="text-2xl font-bold">BLUE LEAF PHARMA</div>
             <div>GST : 09AAWFB2543F1Z9</div>
@@ -32,7 +32,7 @@ function Header() {
           >
             <img
               className="ml-7"
-              src="src\assets\send-inq.png"
+              src="src/assets/send-inq.png"
               alt="inquery-icon"
             />
             <div className="ml-2 text-xl text-black"> Send Inquiry</div>
