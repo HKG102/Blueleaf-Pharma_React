@@ -77,9 +77,9 @@ function HomePage() {
             <Link to={`/${image.id}`} state={{data:image}} className="text-white flex justify-center hover:text-neutral-300">
               {image.description}
             </Link>
-            <button className="text-white flex justify-center underline hover:text-neutral-300 hover:no-underline">
+            <p className="text-white flex justify-center underline hover:text-neutral-300 hover:no-underline">
               Send Inquiry
-            </button>
+            </p>
           </div>
         </div>
       </div>
