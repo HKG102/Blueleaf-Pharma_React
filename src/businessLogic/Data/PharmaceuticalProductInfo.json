@@ -11,7 +11,7 @@
         "price": 250,
         "type": "Bottle",
         "quantity": 100,
-        "supplyAbility": "500 per week",
+        "supplyAbility": "500 Bottle per week",
         "productDescription": "We are an affluent enterprise in this domain, committed to offering Bluprox P 100ml Injection which is a non anti-inflammatory (NSAID) drug belonging to the oxicam class. Piroxicam Tablet is utilized as an analgesic, to relieve arthritis symptoms, and to ease postoperative pain. It is also very effective in the treatment of various cancers such as colon, prostate, and bladder cancer in dogs and cats. Further, our esteemed clients can avail of this Bluprox P 100ml Injection from us at economical prices."
         },
         {
@@ -23,7 +23,10 @@
         "drugType": "Injection",
         "physicalForm": "Liquid",
         "price": 2100,
-        "type": "Box"
+        "type": "Box",
+        "quantity": 100,
+        "supplyAbility": "500 Box per week",
+        "productDescription": "As one of the leading manufacturers and suppliers of the finest medicines, we believe in offering our customers an extensive range of Bluprox SP Bolus Injection that is useful in fighting bad diseases. Piroxicam is a non and anti-inflammatory drug that helps in relieving diseases like rheumatoid and osteoarthritis. With a team of medical experts and scientists, we can manufacture the best quality medicines. We ensure good quality packaging done by the quality assurance team. Free from side effects and user-friendly, our offered Bluprox SP Bolus Injection is easily available."
         },
         {
         "id": 3,
@@ -34,7 +37,10 @@
         "drugType": "Injection",
         "physicalForm": "Liquid",
         "price": 1150,
-        "type": "Bottle"
+        "type": "Bottle",
+        "quantity": 100,
+        "supplyAbility": "500 Bottle per week",
+        "productDescription": "Backed by a team of excellent procurement agents, we are successfully meeting the requirements of our clients by offering a wide array of Bupazon Injection. These are carefully formulated by experts in adherence to the industry-defined standards & norms. Widely demanded in the Pharmaceutical Industry, the gamut of Bupazon Injection is highly acclaimed among clients for features such as high effectiveness and purity."
         },
         {
         "id": 4,
@@ -45,7 +51,10 @@
         "drugType": "Injection",
         "physicalForm": "Liquid",
         "price": 425,
-        "type": "Bottle"
+        "type": "Bottle",
+         "quantity": 100,
+        "supplyAbility": "500 Bottle per week",
+        "productDescription": "We are a prominent manufacturer of a huge gamut of Ceftizaid 3.375 g Injection for Injection. These formulations are known for features like highly effective, safe usage, no side effects, good packaging, no harmful chemicals, easily available and so on. Also, before the final delivery of these Ceftizaid 3.375 g Injection for Injection, our quality inspectors test them on different quality parameters. Also, these are available at industry-leading prices."
         },
         {
         "id": 5,
@@ -56,7 +65,10 @@
         "drugType": "Health Supplements",
         "physicalForm": "Liquid",
         "price": 185,
-        "type": "Box"
+        "type": "Box",
+         "quantity": 100,
+        "supplyAbility": "500 Box per week",
+        "productDescription": "Estrumin 7 Bolus Feed Supplement is indicated for boosting energy levels in the body and treating nutritional deficiency caused due to poor diet. It contains Chelated Trace Minerals, Vitamins, and Antioxidants with Bioactive Chromium which is an abundant source of health-beneficial minerals & vitamins that support healthy body metabolism. This injection is also admired for assisting in faster & better recovery after a prolonged illness. It helps in strengthening immunity and enhancing digestion. Estrumin 7 Bolus Feed Supplement possesses good antioxidant properties thus showing the ability to fight damage caused by free radicals."
         },
         {
         "id": 6,
@@ -67,7 +79,10 @@
         "drugType": "Injection",
         "physicalForm": "Liquid",
         "price": 195,
-        "type": "Bottle"
+        "type": "Bottle",
+         "quantity": 100,
+        "supplyAbility": "500 Bottle per week",
+        "productDescription": "Kentaliv 100 Ml Injection is considered an important therapy in animal medicine with regard to heart diseases. These injections are specially designed to control blood pressure and heart diseases in animals like cats and cows. Quick in action, they open up the blood vessels, thus regulating blood pressure and improving circulation. Kentaliv injection is fast-acting and effective at maintaining the cardiovascular health of animals with vets. Under professional supervision, Kentaliv 100 Ml Injection can be administered to relieve sick animals with heart disease."
         },
         {
         "id": 7,
@@ -78,7 +93,10 @@
         "drugType": "Injection",
         "physicalForm": "Liquid",
         "price": 845,
-        "type": "Bottle"
+        "type": "Bottle",
+         "quantity": 100,
+        "supplyAbility": "500 Bottle per week",
+        "productDescription": "We are a leading manufacturer and supplier of Mammizox 3g Injection . The provided antibiotic is formulated under the proper supervision of our diligent professionals with the aid of innovative techniques using supreme-grade chemical compounds. This antibiotic is commonly used in the treatment of bacterial breast infections. Our team of quality examiner test this antibiotic on different quality aspects to ensure its effectiveness. Moreover, the offered Mammizox 3g Injection can be purchased from us in various packaging options at marginal prices."
         },
         {
         "id": 8,
@@ -89,7 +107,10 @@
         "drugType": "Injection",
         "physicalForm": "Liquid",
         "price": 325,
-        "type": "Bottle"
+        "type": "Bottle",
+         "quantity": 100,
+        "supplyAbility": "500 Bottle per week",
+        "productDescription": "Owing to our ethical business practices and transparent policies, we have become one of the reputed suppliers of Moxicruz 4.5g Injection. In various nursing homes and hospitals, these drugs are used for the treatment of bacterial infections. We source the drugs from the certified vendors of the market, with the help of our experienced agents. Packed in moisture-free packaging bottles, our Moxicruz 4.5g Injection is offered at pocket-friendly prices."
         },
         {
         "id": 9,
@@ -100,7 +121,10 @@
         "drugType": "Injection",
         "physicalForm": "Liquid",
         "price": 75,
-        "type": "Bottle"
+        "type": "Bottle",
+         "quantity": 100,
+        "supplyAbility": "500 Bottle per week",
+        "productDescription": "Moxicruz 300 Mg Injection contains amoxicillin and sulbactum which are ampicillin, sulphonamides and their derivatives which are effective against a wide spectrum of bacterial infections in animal practice. The combination of Amoxicillin a beta-lactam antibiotic and Sulbactam a Beta-lactamase inhibitor enhances the effectiveness of this formulation for treating multiple bacterial strains. Its application includes the treatment of skin, soft tissue, respiratory, and urinary tract infections in animals. Moxicruz 300 Mg Injection is a suitable medication that is an essential part of treating sick animals so that they can recover."
         },
         {
         "id": 10,
@@ -111,7 +135,10 @@
         "drugType": "Injection",
         "physicalForm": "Liquid",
         "price": 275,
-        "type": "Bottle"
+        "type": "Bottle",
+         "quantity": 100,
+        "supplyAbility": "500 Bottle per week",
+        "productDescription": "Neurovet 100 ml Injection  is a composition of vitamin B complex meant for use in animals and contains some of the vital B vitamins such as thiamine, pyridoxine, and cyanocobalamin. These injections act as powerful additives to the animal feeding system, promoting metabolism, neurogenic process and erythropoiesis. B1 is crucial for the proper functioning of nerves, while B6 facilitates metabolism processes as well as helps synthesize some of the nervous system transmitters, making it equally important. On the other hand, B12 boosts the development of healthy blood cells thus ensuring good health. Neurovet 100 ml Injection is usually administered to take on or improve an animals health generally."
         }
     ]
 }

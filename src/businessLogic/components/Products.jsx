@@ -18,10 +18,10 @@ const ProductList = ({ list }) => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {list.images.map((product, index) => (
         <Link
-        to={`/${product.id}`}
-        state={{
-          data: product,
-        }}
+          to={`/${product.id}`}
+          state={{
+            data: product,
+          }}
           key={index}
           className="flex items-start gap-2 hover:underline cursor-pointer"
         >
@@ -64,9 +64,16 @@ function Products() {
 
                 {/* Description Column */}
                 <div className="w-full lg:w-1/1 px-0 lg:px-10 text-blue-500">
-                  <div className="text-2xl sm:text-3xl font-bold hover:text-black cursor-pointer">
+                  <Link
+                    to="/productsCatregory"
+                    state={{
+                      category: "Pharmaceutical Injection",
+                      data: PharmaceuticalProductsInfo,
+                    }}
+                    className="text-2xl sm:text-3xl font-bold hover:text-black cursor-pointer"
+                  >
                     Pharmaceutical Injection
-                  </div>
+                  </Link>
                   <hr className="my-2 border-gray-300" />
                   <div className="pt-4">
                     <ProductList list={PharmaceuticalProductsInfo} />
@@ -106,9 +113,16 @@ function Products() {
 
                 {/* Description Column */}
                 <div className="w-full lg:w-1/1 px-0 lg:px-10 text-blue-500">
-                  <div className="text-2xl sm:text-3xl font-bold hover:text-black cursor-pointer">
+                  <Link
+                    to="/productsCatregory"
+                    state={{
+                      category: "Feed Supplement",
+                      data: FeedSupplementInfo,
+                    }}
+                    className="text-2xl sm:text-3xl font-bold hover:text-black cursor-pointer"
+                  >
                     Feed Supplement
-                  </div>
+                  </Link>
                   <hr className="my-2 border-gray-300" />
                   <div className="pt-4">
                     <ProductList list={FeedSupplementInfo} />
@@ -116,8 +130,14 @@ function Products() {
                 </div>
               </div>
               <div className="w-full flex justify-end pr-3">
-                <Link to="/productsCatregory"
-                    state={{ category: "Feed Supplement", data: FeedSupplementInfo }} className=" text-white bg-red-600 text-xl rounded-xl px-4 py-2 border border-red-600 hover:bg-red-800 hover:border-red-800 transition cursor-pointer">
+                <Link
+                  to="/productsCatregory"
+                  state={{
+                    category: "Feed Supplement",
+                    data: FeedSupplementInfo,
+                  }}
+                  className=" text-white bg-red-600 text-xl rounded-xl px-4 py-2 border border-red-600 hover:bg-red-800 hover:border-red-800 transition cursor-pointer"
+                >
                   ...More
                 </Link>
               </div>

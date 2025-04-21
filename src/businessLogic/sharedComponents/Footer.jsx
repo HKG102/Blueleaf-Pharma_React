@@ -5,31 +5,49 @@ import { Link } from "react-router-dom"; // Import Link from react-router-dom
 function Footer() {
   return (
     <>
-      <footer className="text-white py-20 px-40" style={{ backgroundColor: "#023268" }}>
+      <footer
+        className="text-white py-20 px-40"
+        style={{ backgroundColor: "#023268" }}
+      >
         <div
           className="container mx-auto"
-          style={{ backgroundImage: `url(${mapBg})`, backgroundRepeat:"no-repeat", backgroundPosition:'Right', height:'100%' }} // Use the imported image
+          style={{
+            backgroundImage: `url(${mapBg})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "Right",
+            height: "100%",
+          }} // Use the imported image
         >
           <div className="flex flex-wrap justify-between">
             <div className="w-full md:w-1/3 mb-6">
-              <h2 className="text-3xl font-bold items-start mb-10">Contact Details</h2>
-              <div className="font-bold">
-              BLUE LEAF PHARMA
-              </div>
+              <h2 className="text-3xl font-bold items-start mb-10">
+                Contact Details
+              </h2>
+              <div className="font-bold">BLUE LEAF PHARMA</div>
               <div>GST : 09AAWFB2543F1Z9</div>
-              <div>House No. 22, F Block, Pallav Puram Phase 1 Modipuram, Meerut - 250110, Uttar Pradesh, India</div>
-              <div><span className="font-bold">Phone :</span> 08069546439</div>
+              <div>
+                House No. 22, F Block, Pallav Puram Phase 1 Modipuram, Meerut -
+                250110, Uttar Pradesh, India
               </div>
+              <div>
+                <span className="font-bold">Phone :</span> 08069546439
+              </div>
+            </div>
             <div className="w-full md:w-1/2 mb-6">
-              <p className="font-bold mt-18">
-              Mr M L GUPTA (Manager)
-              </p>
+              <p className="font-bold mt-18">Mr M L GUPTA (Manager)</p>
               <p>
                 <span className="font-bold">Mobile:</span>{" "}
-                <a href="tel:08069546439">
-                08069546439
-                </a>
+                <a href="tel:08069546439">08069546439</a>
               </p>
+            </div>
+
+            <div className="flex flex-row">
+              <button className="bg-white font-semibold text-neutral-950 py-3 px-5 rounded-lg hover:bg-blue-600 hover:text-white transition cursor-pointer">
+                SEND INQUIRY
+              </button>
+              <button className="ml-4 bg-white  font-semibold text-neutral-950 py-3 px-5 rounded-lg hover:bg-blue-600 hover:text-white transition cursor-pointer">
+                SEND SMS
+              </button>
             </div>
           </div>
         </div>

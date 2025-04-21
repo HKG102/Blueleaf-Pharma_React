@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaMinus } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
-import  PharmaceuticalProductsInfo  from "../Data/PharmaceuticalProductInfo";
-import  FeedSupplementInfo  from "../Data/FeedSupplementInfo.json";
+import PharmaceuticalProductsInfo from "../Data/PharmaceuticalProductInfo";
+import FeedSupplementInfo from "../Data/FeedSupplementInfo.json";
 
 function Header() {
   const [hover, setHover] = useState(false);
@@ -12,7 +12,13 @@ function Header() {
     <>
       <nav className=" bg-blue-600 text-white flex justify-between">
         <div className="flex items-start px-10 py-1">
-          <img src="src/assets/logo.jpg" className="w-25" alt="Company Logo" />
+          <Link to="/">
+            <img
+              src="src/assets/logo.jpg"
+              className="w-25"
+              alt="Company Logo"
+            />
+          </Link>
           <div className="m-5">
             <div className="text-2xl font-bold">BLUE LEAF PHARMA</div>
             <div>GST : 09AAWFB2543F1Z9</div>
@@ -67,14 +73,20 @@ function Header() {
                 <div className="absolute left-0 top-full mt-0 bg-white text-black rounded shadow-lg w-52 z-50">
                   <Link
                     to="/productsCatregory"
-                    state={{ category: "Pharmaceutical Injection", data: PharmaceuticalProductsInfo }}
+                    state={{
+                      category: "Pharmaceutical Injection",
+                      data: PharmaceuticalProductsInfo,
+                    }}
                     className="block px-4 py-2 hover:bg-gray-100 hover:rounded"
                   >
                     Pharmaceutical Injection
                   </Link>
                   <Link
                     to="/productsCatregory"
-                    state={{ category: "Feed Supplement", data: FeedSupplementInfo }}
+                    state={{
+                      category: "Feed Supplement",
+                      data: FeedSupplementInfo,
+                    }}
                     className="block px-4 py-2 hover:bg-gray-100 hover:rounded"
                   >
                     Feed Supplement

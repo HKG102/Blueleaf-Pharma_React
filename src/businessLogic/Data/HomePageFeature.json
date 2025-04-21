@@ -1,14 +1,32 @@
 {
     "images": [
         {
-        "id": 1,
-        "url": "src/assets/Bluprox-SP-Bolus-Injection.jpg",
-        "description": "Bluprox SP Bolus Injection"
+            "id": 2,
+            "url": "src/assets/Bluprox-SP-Bolus-Injection.jpg",
+            "description": "Bluprox SP Bolus Injection",
+            "supply": "500 per week",
+            "storage": "Normal Temperature",
+            "drugType": "Injection",
+            "physicalForm": "Liquid",
+            "price": 2100,
+            "type": "Box",
+            "quantity": 100,
+            "supplyAbility": "500 Box per week",
+            "productDescription": "As one of the leading manufacturers and suppliers of the finest medicines, we believe in offering our customers an extensive range of Bluprox SP Bolus Injection that is useful in fighting bad diseases. Piroxicam is a non and anti-inflammatory drug that helps in relieving diseases like rheumatoid and osteoarthritis. With a team of medical experts and scientists, we can manufacture the best quality medicines. We ensure good quality packaging done by the quality assurance team. Free from side effects and user-friendly, our offered Bluprox SP Bolus Injection is easily available."
         },
         {
-        "id": 2,
-        "url": "src/assets/Mammizox-3g-Injection.jpg",
-        "description": "Mammizox 3g Injection"
+            "id": 7,
+            "url": "src/assets/Mammizox-3g-Injection.jpg",
+            "description": "Mammizox 3g Injection",
+            "supply": "500 per week",
+            "storage": "Normal Temperature",
+            "drugType": "Injection",
+            "physicalForm": "Liquid",
+            "price": 845,
+            "type": "Bottle",
+            "quantity": 100,
+            "supplyAbility": "500 Bottle per week",
+            "productDescription": "We are a leading manufacturer and supplier of Mammizox 3g Injection . The provided antibiotic is formulated under the proper supervision of our diligent professionals with the aid of innovative techniques using supreme-grade chemical compounds. This antibiotic is commonly used in the treatment of bacterial breast infections. Our team of quality examiner test this antibiotic on different quality aspects to ensure its effectiveness. Moreover, the offered Mammizox 3g Injection can be purchased from us in various packaging options at marginal prices."
         }
     ]
 }

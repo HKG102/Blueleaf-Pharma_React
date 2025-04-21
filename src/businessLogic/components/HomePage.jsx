@@ -48,10 +48,10 @@ function HomePage() {
               hoveredIndex === image.id ? "translate-y-0" : "translate-y-full"
             }`}
           >
-            <p className="text-white text-center hover:text-neutral-300">
+            <Link to={`/${image.id}`} state={{data:image}} className="text-white flex justify-center hover:text-neutral-300">
               {image.description}
-            </p>
-            <p className="text-white text-center underline hover:text-neutral-300 hover:no-underline">
+            </Link>
+            <p className="text-white flex justify-center underline hover:text-neutral-300 hover:no-underline">
               Send Inquiry
             </p>
           </div>
@@ -74,10 +74,10 @@ function HomePage() {
               hoveredIndex === image.id ? "translate-y-0" : "translate-y-full"
             }`}
           >
-            <p className="text-white text-center hover:text-neutral-300">
+            <Link to={`/${image.id}`} state={{data:image}} className="text-white flex justify-center hover:text-neutral-300">
               {image.description}
-            </p>
-            <button className="text-white text-center underline hover:text-neutral-300 hover:no-underline">
+            </Link>
+            <button className="text-white flex justify-center underline hover:text-neutral-300 hover:no-underline">
               Send Inquiry
             </button>
           </div>
@@ -251,7 +251,7 @@ function HomePage() {
         >
           {HomePageNewArrivals.images.map((img) => (
             <SwiperSlide key={img.id}>
-              <div className="border-2 border-gray-300 rounded-lg shadow-md overflow-hidden">
+              <Link to={`/${img.id}`} state={{data:img}} className=" border-gray-300 rounded-lg shadow-md overflow-hidden">
                 <img
                   src={img.url}
                   alt={img.description}
@@ -262,7 +262,7 @@ function HomePage() {
                     {img.description}
                   </button>
                 </div>
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>

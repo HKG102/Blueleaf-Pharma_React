@@ -9,7 +9,10 @@
         "drugType": "General Medicines",
         "physicalForm": "Tablets",
         "price": 350,
-        "type": "Box"
+        "type": "Box",
+        "quantity": 100,
+        "supplyAbility": "500 Box per Week",
+        "productDescription": "Apptosacc Tablet is formulated for veterinary usage with probiotic, and prebiotic components suitable for animals. These tablets are made of mixed living organisms that aid in having a balance as far as intestinal flora is concerned which affects ones gut health. Probiotics help in digesting and boosting the immune system; prebiotics are food for good bacteria that inhabit in the gut. Apptosacc Tablet is administered as a supplement to improve conditions associated with the gastrointestinal health of animals subjected to veterinary care."
         },
         {
         "id": 2,
@@ -20,7 +23,10 @@
         "drugType": "General Medicines",
         "physicalForm": "Tablets",
         "price": 650,
-        "type": "Liter"
+        "type": "Liter",
+        "quantity": 100,
+        "supplyAbility": "500 Liter per Week",
+        "productDescription": "The Haemshot Tablet is a product used in animal health as an iron and vitamin supplement. Formulation of iron, which is important in making blood cells; coupled with essential vitamins like B12 and folic acid are equally important for good health. The offered tablets administered orally manage anaemia as well as help in animal recovery from blood loss and deficiency diseases. Haemshot Tablet helps in strengthening energy, improving oxygen transportation and ultimately maintaining better health for animal patients."
         }
     ]
 }

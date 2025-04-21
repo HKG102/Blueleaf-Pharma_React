@@ -1,24 +1,60 @@
 {
     "images": [
         {
-        "id": 1,
-        "url": "src/assets/Neurovet-100-ml-Injection.jpg",
-        "description": "Neurovet 100 ml Injection"
+            "id": 10,
+            "url": "src/assets/Neurovet-100-ml-Injection.jpg",
+            "description": "Neurovet 100 ml Injection",
+            "supply": "500 per week",
+            "storage": "Normal Temperature",
+            "drugType": "Injection",
+            "physicalForm": "Liquid",
+            "price": 275,
+            "type": "Bottle",
+            "quantity": 100,
+            "supplyAbility": "500 Bottle per week",
+            "productDescription": "Neurovet 100 ml Injection  is a composition of vitamin B complex meant for use in animals and contains some of the vital B vitamins such as thiamine, pyridoxine, and cyanocobalamin. These injections act as powerful additives to the animal feeding system, promoting metabolism, neurogenic process and erythropoiesis. B1 is crucial for the proper functioning of nerves, while B6 facilitates metabolism processes as well as helps synthesize some of the nervous system transmitters, making it equally important. On the other hand, B12 boosts the development of healthy blood cells thus ensuring good health. Neurovet 100 ml Injection is usually administered to take on or improve an animals health generally."
         },
         {
-        "id": 2,
-        "url": "src/assets/Moxicruz-300-Mg-Injection.jpg",
-        "description": "Moxicruz 300 Mg Injection"
+            "id": 9,
+            "url": "src/assets/Moxicruz-300-Mg-Injection.jpg",
+            "description": "Moxicruz 300 Mg Injection",
+            "supply": "500 per week",
+            "storage": "Normal Temperature",
+            "drugType": "Injection",
+            "physicalForm": "Liquid",
+            "price": 75,
+            "type": "Bottle",
+            "quantity": 100,
+            "supplyAbility": "500 Bottle per week",
+            "productDescription": "Moxicruz 300 Mg Injection contains amoxicillin and sulbactum which are ampicillin, sulphonamides and their derivatives which are effective against a wide spectrum of bacterial infections in animal practice. The combination of Amoxicillin a beta-lactam antibiotic and Sulbactam a Beta-lactamase inhibitor enhances the effectiveness of this formulation for treating multiple bacterial strains. Its application includes the treatment of skin, soft tissue, respiratory, and urinary tract infections in animals. Moxicruz 300 Mg Injection is a suitable medication that is an essential part of treating sick animals so that they can recover."
         },
         {
-        "id": 3,
-        "url": "src/assets/Haemshot-1lt-Liquid.jpg",
-        "description": "Haemshot 1lt Liquid"
+            "id": 2,
+            "url": "src/assets/Haemshot-1lt-Liquid.jpg",
+            "description": "Haemshot 1lt Liquid",
+            "supply": "500 per week",
+            "storage": "Normal Temperature",
+            "drugType": "General Medicines",
+            "physicalForm": "Tablets",
+            "price": 650,
+            "type": "Liter",
+            "quantity": 100,
+            "supplyAbility": "500 Liter per Week",
+            "productDescription": "The Haemshot Tablet is a product used in animal health as an iron and vitamin supplement. Formulation of iron, which is important in making blood cells; coupled with essential vitamins like B12 and folic acid are equally important for good health. The offered tablets administered orally manage anaemia as well as help in animal recovery from blood loss and deficiency diseases. Haemshot Tablet helps in strengthening energy, improving oxygen transportation and ultimately maintaining better health for animal patients."
         },
         {
-        "id": 4,
-        "url": "src/assets/Apptosacc-Powder.jpg",
-        "description": "Apptosacc Powder"
+            "id": 1,
+            "url": "src/assets/Apptosacc-Powder.jpg",
+            "description": "Apptosacc Powder",
+            "supply": "500 per week",
+            "storage": "Normal Temperature",
+            "drugType": "General Medicines",
+            "physicalForm": "Tablets",
+            "price": 350,
+            "type": "Box",
+            "quantity": 100,
+            "supplyAbility": "500 Box per Week",
+            "productDescription": "Apptosacc Tablet is formulated for veterinary usage with probiotic, and prebiotic components suitable for animals. These tablets are made of mixed living organisms that aid in having a balance as far as intestinal flora is concerned which affects ones gut health. Probiotics help in digesting and boosting the immune system; prebiotics are food for good bacteria that inhabit in the gut. Apptosacc Tablet is administered as a supplement to improve conditions associated with the gastrointestinal health of animals subjected to veterinary care."
         }
     ]
 }
