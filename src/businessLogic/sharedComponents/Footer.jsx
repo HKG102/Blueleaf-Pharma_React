@@ -37,7 +37,7 @@ function Footer() {
               <p className="font-bold mt-18">Mr M L GUPTA (Manager)</p>
               <p>
                 <span className="font-bold">Mobile:</span>{" "}
-                <a href="tel:09319775619">09319775619</a>
+                <a href="tel:09319775620">09319775620</a>
               </p>
             </div>
 
