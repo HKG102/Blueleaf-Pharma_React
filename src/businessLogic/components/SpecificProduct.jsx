@@ -97,9 +97,11 @@ function SpecificProduct() {
           <button className="mb-3 border text-red-500 border-red-500 rounded-lg text-2xl hover:bg-red-700 hover:border-red-700 hover:text-white px-4 py-2 transition cursor-pointer">
             REQUEST TO CALL BACK
           </button>
-          <button className="border text-white border-red-700 bg-red-700 rounded-lg text-2xl hover:bg-white hover:border-red-500 hover:text-red-500 px-4 py-2 transition cursor-pointer">
-            SEND INQUIRY
-          </button>
+          <Link to="/contact">
+            <button className="w-full border text-white border-red-700 bg-red-700 rounded-lg text-2xl hover:bg-white hover:border-red-500 hover:text-red-500 px-4 py-2 transition cursor-pointer">
+              SEND INQUIRY
+            </button>
+          </Link>
         </div>
       </div>
       <div
@@ -199,12 +201,12 @@ function SpecificProduct() {
                     {img.description}
                   </Link>
                   <div className="text-xl font-light border-b border-gray-200 py-2">
-                    <span className="font-semibold">Price : </span> {img.price}
+                    <span className="font-semibold">Price : </span> {img.price}{" "}
                     INR/{data.type}
                   </div>
                   <div className="text-xl font-light border-b border-gray-200 py-2">
                     <span className="font-semibold">
-                      Minimum Order Qunatity : 
+                      Minimum Order Qunatity :
                     </span>{" "}
                     {img.quantity}
                   </div>
@@ -217,15 +219,18 @@ function SpecificProduct() {
                     {img.physicalForm}
                   </div>
                   <div className="text-xl font-light border-b border-gray-200 py-2">
-                    <span className="font-semibold">Storage Instruction : </span>{" "}
+                    <span className="font-semibold">
+                      Storage Instruction :{" "}
+                    </span>{" "}
                     {img.storage}
                   </div>
                   <div className="flex justify-center items-center">
-                  <button className="mt-5 border text-red-700 border-red-700 rounded-lg hover:bg-red-700 hover:border-red-700 hover:text-white px-4 py-2 transition cursor-pointer">
-                    Send Inquiry
-                  </button>
+                    <Link to="/contact">
+                      <button className="mt-5 border text-red-700 border-red-700 rounded-lg hover:bg-red-700 hover:border-red-700 hover:text-white px-4 py-2 transition cursor-pointer">
+                        Send Inquiry
+                      </button>
+                    </Link>
                   </div>
-                  
                 </div>
               </div>
             </SwiperSlide>

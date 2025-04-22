@@ -28,7 +28,7 @@ function CategoriesProduct() {
               <Link
                 to={`/${image.id}`}
                 state={{
-                  data: image
+                  data: image,
                 }}
                 className="w-full text-3xl cursor-pointer text-blue-600"
               >
@@ -68,9 +68,11 @@ function CategoriesProduct() {
                     </span>
                   </div>
                   <div className="pt-5">
-                    <button className=" text-white bg-red-800 text-lg rounded-lg px-6 py-3 border border-red-800 hover:bg-red-600 hover:border-red-600 transition cursor-pointer">
-                      SEND INQUIRY
-                    </button>
+                    <Link to="/contact">
+                      <button className=" text-white bg-red-800 text-lg rounded-lg px-6 py-3 border border-red-800 hover:bg-red-600 hover:border-red-600 transition cursor-pointer">
+                        SEND INQUIRY
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

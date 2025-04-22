@@ -42,9 +42,12 @@ function Footer() {
             </div>
 
             <div className="flex flex-row">
-              <button className="bg-white font-semibold text-neutral-950 py-3 px-5 rounded-lg hover:bg-blue-600 hover:text-white transition cursor-pointer">
-                SEND INQUIRY
-              </button>
+              <Link to='/contact'>
+                <button className="bg-white font-semibold text-neutral-950 py-3 px-5 rounded-lg hover:bg-blue-600 hover:text-white transition cursor-pointer">
+                  SEND INQUIRY
+                </button>
+              </Link>
+
               <button className="ml-4 bg-white  font-semibold text-neutral-950 py-3 px-5 rounded-lg hover:bg-blue-600 hover:text-white transition cursor-pointer">
                 SEND SMS
               </button>
