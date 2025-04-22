@@ -29,7 +29,7 @@ function Header() {
             className=" m-2 px-2 rounded-xl flex items-center h-10"
             style={{ backgroundColor: "#044a96" }}
           >
-            <div className="p-4 text-xl"> Call : 08071931416</div>
+            <div className="p-4 text-xl"> Call : 09319775620</div>
           </div>
           <Link
             to="/contact"

@@ -30,14 +30,14 @@ function Footer() {
                 250110, Uttar Pradesh, India
               </div>
               <div>
-                <span className="font-bold">Phone :</span> 08069546439
+                <span className="font-bold">Phone :</span> 09319775620
               </div>
             </div>
             <div className="w-full md:w-1/2 mb-6">
               <p className="font-bold mt-18">Mr M L GUPTA (Manager)</p>
               <p>
                 <span className="font-bold">Mobile:</span>{" "}
-                <a href="tel:08069546439">08069546439</a>
+                <a href="tel:09319775619">09319775619</a>
               </p>
             </div>
 
