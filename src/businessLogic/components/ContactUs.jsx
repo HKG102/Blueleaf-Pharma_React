@@ -43,7 +43,7 @@ function ContactUs() {
 
             <div className="flex items-start gap-3 mb-4">
               <FaMobileScreenButton className="text-2xl mt-1" />
-              <p className="text-xl">Mobile: 08071931416</p>
+              <p className="text-xl">Mobile: 09319775620</p>
             </div>
 
             <div className="flex items-start gap-3 mb-4">
