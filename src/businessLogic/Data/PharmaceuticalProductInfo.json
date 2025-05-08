@@ -2,7 +2,7 @@
     "images": [
         {
         "id": 1,
-        "url": "src/assets/Bluprox-P-100ml-Injection.jpg",
+        "url": "/assets/Bluprox-P-100ml-Injection.jpg",
         "description": "Bluprox P 100ml Injection",
         "supply": "500 per week",
         "storage": "Normal Temperature",
@@ -16,7 +16,7 @@
         },
         {
         "id": 2,
-        "url": "src/assets/Bluprox-SP-Bolus-Injection.jpg",
+        "url": "/assets/Bluprox-SP-Bolus-Injection.jpg",
         "description": "Bluprox SP Bolus Injection",
         "supply": "500 per week",
         "storage": "Normal Temperature",
@@ -30,7 +30,7 @@
         },
         {
         "id": 3,
-        "url": "src/assets/Bupazon-Injection.jpg",
+        "url": "/assets/Bupazon-Injection.jpg",
         "description": "Bupazon Injection",
         "supply": "500 per week",
         "storage": "Normal Temperature",
@@ -44,7 +44,7 @@
         },
         {
         "id": 4,
-        "url": "src/assets/Ceftizaid-3-375-g-Injection.jpg",
+        "url": "/assets/Ceftizaid-3-375-g-Injection.jpg",
         "description": "Ceftizaid 3.375 g Injection",
         "supply": "500 per week",
         "storage": "Normal Temperature",
@@ -58,7 +58,7 @@
         },
         {
         "id": 5,
-        "url": "src/assets/Estrumin-7-Bolus-Feed-Supplement.jpg",
+        "url": "/assets/Estrumin-7-Bolus-Feed-Supplement.jpg",
         "description": "Estrumin 7 Bolus Feed Supplement",
         "supply": "500 per week",
         "storage": "Normal Temperature",
@@ -72,7 +72,7 @@
         },
         {
         "id": 6,
-        "url": "src/assets/Kentaliv-100-Ml-Injection.jpg",
+        "url": "/assets/Kentaliv-100-Ml-Injection.jpg",
         "description": "Kentaliv 100 Ml Injection",
         "supply": "500 per week",
         "storage": "Normal Temperature",
@@ -86,7 +86,7 @@
         },
         {
         "id": 7,
-        "url": "src/assets/Mammizox-3g-Injection.jpg",
+        "url": "/assets/Mammizox-3g-Injection.jpg",
         "description": "Mammizox 3g Injection",
         "supply": "500 per week",
         "storage": "Normal Temperature",
@@ -100,7 +100,7 @@
         },
         {
         "id": 8,
-        "url": "src/assets/Moxicruz-4-5g-Injection.jpg",
+        "url": "/assets/Moxicruz-4-5g-Injection.jpg",
         "description": "Moxicruz 4.5g Injection",
         "supply": "500 per week",
         "storage": "Normal Temperature",
@@ -114,7 +114,7 @@
         },
         {
         "id": 9,
-        "url": "src/assets/Moxicruz-300-Mg-Injection.jpg",
+        "url": "/assets/Moxicruz-300-Mg-Injection.jpg",
         "description": "Moxicruz 300 Mg Injection",
         "supply": "500 per week",
         "storage": "Normal Temperature",
@@ -128,7 +128,7 @@
         },
         {
         "id": 10,
-        "url": "src/assets/Neurovet-100-ml-Injection.jpg",
+        "url": "/assets/Neurovet-100-ml-Injection.jpg",
         "description": "Neurovet 100 ml Injection",
         "supply": "500 per week",
         "storage": "Normal Temperature",

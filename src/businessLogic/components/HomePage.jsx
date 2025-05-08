@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Carousel from "../sharedComponents/Carousel";
 import { Link, useLocation } from "react-router-dom";
-import mapBg from "../../assets/line.jpg";
+import mapBg from "/assets/line.jpg";
 import HomePageNewArrivals from "../Data/HomePageNewArrivals"; // Import your data
 import HomePageFeature from "../Data/HomePageFeature"; // Import your data
 import { Swiper, SwiperSlide } from "swiper/react"; // Import Swiper React components

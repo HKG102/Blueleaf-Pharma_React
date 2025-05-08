@@ -37,7 +37,7 @@ function Products() {
   return (
     <div className="px-4 md:px-10 lg:px-20">
       <img
-        src="src/assets/template_photo_contact-us.jpg"
+        src="/assets/template_photo_contact-us.jpg"
         alt="Contact Us"
         className="w-full h-48 sm:h-64 md:h-80 lg:h-80 rounded-lg mt-4"
       />
@@ -53,7 +53,7 @@ function Products() {
                 {/* Product Image Card */}
                 <div className="w-full lg:w-1/3 border-gray-300 border-4 rounded-lg shadow-md overflow-hidden hover:bg-blue-500 hover:border-blue-500 hover:text-white transition duration-300 ease-in-out">
                   <img
-                    src="src/assets/Bluprox-P-100ml-Injection.jpg"
+                    src="/assets/Bluprox-P-100ml-Injection.jpg"
                     alt=""
                     className="w-full h-60 sm:h-72 cursor-pointer"
                   />

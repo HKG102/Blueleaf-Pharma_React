@@ -2,7 +2,7 @@
     "images": [
         {
             "id": 2,
-            "url": "src/assets/Bluprox-SP-Bolus-Injection.jpg",
+            "url": "/assets/Bluprox-SP-Bolus-Injection.jpg",
             "description": "Bluprox SP Bolus Injection",
             "supply": "500 per week",
             "storage": "Normal Temperature",
@@ -16,7 +16,7 @@
         },
         {
             "id": 7,
-            "url": "src/assets/Mammizox-3g-Injection.jpg",
+            "url": "/assets/Mammizox-3g-Injection.jpg",
             "description": "Mammizox 3g Injection",
             "supply": "500 per week",
             "storage": "Normal Temperature",

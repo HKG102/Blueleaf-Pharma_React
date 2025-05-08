@@ -20,7 +20,7 @@ function ContactUs() {
   return (
     <div className="px-4 md:px-10 lg:px-20">
       <img
-        src="src/assets/template_photo_contact-us.jpg"
+        src="/assets/template_photo_contact-us.jpg"
         alt="Contact Us"
         className="w-full h-48 sm:h-64 md:h-80 lg:h-80 rounded-lg mt-4"
       />

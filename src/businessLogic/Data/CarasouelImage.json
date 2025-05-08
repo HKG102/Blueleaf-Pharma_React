@@ -2,12 +2,12 @@
     "images": [
         {
         "id": 1,
-        "url": "src/assets/template_photo_3.jpg",
+        "url": "/assets/template_photo_3.jpg",
         "description": "Image 1 description"
         },
         {
         "id": 2,
-        "url": "src/assets/template_photo_4.jpg",
+        "url": "/assets/template_photo_4.jpg",
         "description": "Image 2 description"
         }
     ]

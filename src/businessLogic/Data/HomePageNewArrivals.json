@@ -2,7 +2,7 @@
     "images": [
         {
             "id": 10,
-            "url": "src/assets/Neurovet-100-ml-Injection.jpg",
+            "url": "/assets/Neurovet-100-ml-Injection.jpg",
             "description": "Neurovet 100 ml Injection",
             "supply": "500 per week",
             "storage": "Normal Temperature",
@@ -16,7 +16,7 @@
         },
         {
             "id": 9,
-            "url": "src/assets/Moxicruz-300-Mg-Injection.jpg",
+            "url": "/assets/Moxicruz-300-Mg-Injection.jpg",
             "description": "Moxicruz 300 Mg Injection",
             "supply": "500 per week",
             "storage": "Normal Temperature",
@@ -30,7 +30,7 @@
         },
         {
             "id": 2,
-            "url": "src/assets/Haemshot-1lt-Liquid.jpg",
+            "url": "/assets/Haemshot-1lt-Liquid.jpg",
             "description": "Haemshot 1lt Liquid",
             "supply": "500 per week",
             "storage": "Normal Temperature",
@@ -44,7 +44,7 @@
         },
         {
             "id": 1,
-            "url": "src/assets/Apptosacc-Powder.jpg",
+            "url": "/assets/Apptosacc-Powder.jpg",
             "description": "Apptosacc Powder",
             "supply": "500 per week",
             "storage": "Normal Temperature",

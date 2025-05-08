@@ -14,7 +14,7 @@ function Header() {
         <div className="flex items-start px-10 py-1">
           <Link to="/">
             <img
-              src="src/assets/logo.jpg"
+              src="/assets/logo.jpg"
               className="w-25"
               alt="Company Logo"
             />
@@ -38,7 +38,7 @@ function Header() {
           >
             <img
               className="ml-7"
-              src="src/assets/send-inq.png"
+              src="/assets/send-inq.png"
               alt="inquery-icon"
             />
             <div className="ml-2 text-xl text-black"> Send Inquiry</div>

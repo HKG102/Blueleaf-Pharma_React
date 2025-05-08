@@ -1,5 +1,5 @@
 import React from "react";
-import mapBg from "../../assets/map-bg.png"; // Import the image
+import mapBg from "/assets/map-bg.png"; // Import the image
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 function Footer() {
