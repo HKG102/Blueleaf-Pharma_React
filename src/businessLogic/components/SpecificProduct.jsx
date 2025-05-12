@@ -173,64 +173,66 @@ function SpecificProduct() {
         Other Popular Products on our Website
       </div>
 
-      <div className="w-full max-w-6xl mx-auto py-10">
+      <div className="w-full max-w-7xl mx-auto py-10 px-4">
         <Swiper
           modules={[Navigation]}
           navigation
-          slidesPerView={3}
-          spaceBetween={100}
           loop={true}
+          spaceBetween={20}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+              spaceBetween:10
+            },
+            640: {
+              slidesPerView: 2,
+              spaceBetween:20
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween:30
+            },
+          }}
           className="mySwiper"
         >
           {PharmaceuticalProductInfo.images.map((img) => (
             <SwiperSlide key={img.id}>
-              <div className="border-2 border-gray-300 rounded-lg shadow-md overflow-hidden">
+              <div className="border border-gray-300 rounded-lg shadow-sm overflow-hidden bg-white h-full flex flex-col">
                 <Link to={`/${img.id}`} state={{ data: img }}>
                   <img
                     src={img.url}
                     alt={img.description}
-                    className="w-full object-cover cursor-pointer"
+                    className="w-full h-48 sm:h-52 md:h-56 object-cover"
                   />
                 </Link>
-                <div className="p-6">
+                <div className="p-3 sm:p-4 flex flex-col gap-1 text-sm sm:text-base">
                   <Link
                     to={`/${img.id}`}
                     state={{ data: img }}
-                    className="font-bold cursor-pointer"
+                    className="font-semibold text-blue-700 hover:underline line-clamp-2"
                   >
                     {img.description}
                   </Link>
-                  <div className="text-xl font-light border-b border-gray-200 py-2">
-                    <span className="font-semibold">Price : </span> {img.price}{" "}
-                    INR/{data.type}
+                  <div>
+                    <span className="font-medium">Price:</span> {img.price} INR/{img.type}
                   </div>
-                  <div className="text-xl font-light border-b border-gray-200 py-2">
-                    <span className="font-semibold">
-                      Minimum Order Qunatity :
-                    </span>{" "}
-                    {img.quantity}
+                  <div>
+                    <span className="font-medium">MOQ:</span> {img.quantity}
                   </div>
-                  <div className="text-xl font-light border-b border-gray-200 py-2">
-                    <span className="font-semibold">Drug Type : </span>{" "}
-                    {img.drugType}
+                  <div>
+                    <span className="font-medium">Drug Type:</span> {img.drugType}
                   </div>
-                  <div className="text-xl font-light border-b border-gray-200 py-2">
-                    <span className="font-semibold">Physical Form : </span>{" "}
-                    {img.physicalForm}
+                  <div>
+                    <span className="font-medium">Form:</span> {img.physicalForm}
                   </div>
-                  <div className="text-xl font-light border-b border-gray-200 py-2">
-                    <span className="font-semibold">
-                      Storage Instruction :{" "}
-                    </span>{" "}
-                    {img.storage}
+                  <div>
+                    <span className="font-medium">Storage:</span> {img.storage}
                   </div>
-                  <div className="flex justify-center items-center">
-                    <Link to="/contact">
-                      <button className="mt-5 border text-red-700 border-red-700 rounded-lg hover:bg-red-700 hover:border-red-700 hover:text-white px-4 py-2 transition cursor-pointer">
-                        Send Inquiry
-                      </button>
-                    </Link>
-                  </div>
+                  <Link to="/contact" className="mt-2">
+                    <button className="w-full text-red-700 border border-red-700 rounded-md hover:bg-red-700 hover:text-white px-3 py-2 text-sm transition">
+                      Send Inquiry
+                    </button>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>

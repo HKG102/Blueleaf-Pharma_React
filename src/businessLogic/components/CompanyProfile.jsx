@@ -10,12 +10,14 @@ function CompanyProfile() {
       behavior: "smooth",
     });
   }, [pathname]);
+
   return (
-    <div>
-      <div className="flex flex-col items-center justify-center text-2xl py-10">
+    <div className="px-4 sm:px-6 md:px-16 lg:px-40 py-8">
+      <h1 className="text-center text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
         Company Profile
-      </div>
-      <div className="flex flex-col items-center justify-center text-xl pb-10 px-50">
+      </h1>
+
+      <p className="text-justify text-base sm:text-lg mb-10">
         Headquartered in Meerut, Uttar Pradesh, we, Blue Leaf Pharma is a young
         and dynamic company with a keen desire to excel in the industry and
         reach the pinnacle of success in pharmaceutical products. We are a
@@ -25,46 +27,46 @@ function CompanyProfile() {
         more. Our Quality Control department always tests the raw materials and
         finished products for their quality and only after they meet the
         required criterion, they are sent for the next process.
-      </div>
-      <div className="flex flex-col justify-center text-xl font-bold pb-10 px-50">
-        Key Facts of Blue Leaf Pharma
-      </div>
+      </p>
 
-      <div className="overflow-x-auto px-50 pb-10">
-        <table className="min-w-full border border-gray-300 text-l">
+      <h2 className="text-xl sm:text-2xl font-bold mb-4">
+        Key Facts of Blue Leaf Pharma
+      </h2>
+
+      <div className="overflow-x-auto">
+        <table className="min-w-full border border-gray-300 text-sm sm:text-base">
           <tbody className="divide-y divide-gray-300">
             <tr className="hover:bg-gray-100">
-              <td className="px-6 py-4 font-bold">Nature of Business</td>
-              <td className="px-6 py-4">Manufacturer, Supplier</td>
+              <td className="px-4 py-3 font-bold">Nature of Business</td>
+              <td className="px-4 py-3">Manufacturer, Supplier</td>
             </tr>
             <tr className="bg-gray-50 hover:bg-gray-100">
-              <td className="px-6 py-4 font-bold">Year of Establishment</td>
-              <td className="px-6 py-4">2020</td>
+              <td className="px-4 py-3 font-bold">Year of Establishment</td>
+              <td className="px-4 py-3">2020</td>
             </tr>
             <tr className="hover:bg-gray-100">
-              <td className="px-6 py-4 font-bold">Location</td>
-              <td className="px-6 py-4">Meerut, Uttar Pradesh, India</td>
+              <td className="px-4 py-3 font-bold">Location</td>
+              <td className="px-4 py-3">Meerut, Uttar Pradesh, India</td>
             </tr>
             <tr className="bg-gray-50 hover:bg-gray-100">
-              <td className="px-6 py-4 font-bold">No. of Employees</td>
-              <td className="px-6 py-4">9</td>
+              <td className="px-4 py-3 font-bold">No. of Employees</td>
+              <td className="px-4 py-3">9</td>
             </tr>
             <tr className="hover:bg-gray-100">
-              <td className="px-6 py-4 font-bold">GST Number</td>
-              <td className="px-6 py-4">09AAWFB2543F1Z9</td>
+              <td className="px-4 py-3 font-bold">GST Number</td>
+              <td className="px-4 py-3">09AAWFB2543F1Z9</td>
             </tr>
             <tr className="bg-gray-50 hover:bg-gray-100">
-              <td className="px-6 py-4 font-bold">Membership & Affiliation</td>
-              <td className="px-6 py-4">MSME</td>
+              <td className="px-4 py-3 font-bold">Membership & Affiliation</td>
+              <td className="px-4 py-3">MSME</td>
             </tr>
             <tr className="hover:bg-gray-100">
-              <td className="px-6 py-4 font-bold">Shipment Mode</td>
-              <td className="px-6 py-4">	
-              Road Transport</td>
+              <td className="px-4 py-3 font-bold">Shipment Mode</td>
+              <td className="px-4 py-3">Road Transport</td>
             </tr>
             <tr className="bg-gray-50 hover:bg-gray-100">
-              <td className="px-6 py-4 font-bold">Mode of Payment</td>
-              <td className="px-6 py-4">Online Payments (NEFT/RTGS/IMPS)</td>
+              <td className="px-4 py-3 font-bold">Mode of Payment</td>
+              <td className="px-4 py-3">Online Payments (NEFT/RTGS/IMPS)</td>
             </tr>
           </tbody>
         </table>

@@ -102,7 +102,7 @@ function Products() {
                 {/* Product Image Card */}
                 <div className="w-full lg:w-1/3 border-gray-300 border-4 rounded-lg shadow-md overflow-hidden hover:bg-blue-500 hover:border-blue-500 hover:text-white transition duration-300 ease-in-out">
                   <img
-                    src="src\assets\Apptosacc-Powder.jpg"
+                    src="assets/Apptosacc-Powder.jpg"
                     alt=""
                     className="w-full h-60 sm:h-72 cursor-pointer"
                   />
