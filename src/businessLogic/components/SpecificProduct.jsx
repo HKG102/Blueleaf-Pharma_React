@@ -106,68 +106,81 @@ function SpecificProduct() {
       </div>
       <div
         ref={targetRef}
-        className="my-5 p-6 rounded shadow-2xl bg-white w-full max-w-6xl flex flex-col gap-6"
+        className="my-5 p-4 sm:p-6 rounded shadow-2xl bg-white w-full max-w-6xl flex flex-col gap-6"
       >
-        <div className="text-2xl font-light border-b border-gray-200 py-2">
+        {/* Section Title */}
+        <div className="text-xl sm:text-2xl font-light border-b border-gray-200 py-2">
           {data.description} Price And Quantity
         </div>
+
+        {/* Price & Quantity */}
         <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2 px-6 py-2 flex justify-between items-center text-xl">
-            <div>Price</div>
-            <div className="font-light">
-              {data.price}INR/{data.type}
+          <div className="w-full lg:w-1/2 px-4 py-3 text-base sm:text-xl">
+            <div className="flex flex-col sm:flex-row font-semibold justify-between gap-1 sm:gap-4">
+              <span>Price</span>
+              <span className="font-light">{data.price} INR/{data.type}</span>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 px-6 py-2 flex justify-between items-center text-xl">
-            <div>Minimum Order Quantity</div>
-            <div className="font-light">
-              {data.quantity} {data.type}
+          <div className="w-full lg:w-1/2 px-4 py-3 text-base sm:text-xl">
+            <div className="flex flex-col sm:flex-row font-semibold justify-between gap-1 sm:gap-4">
+              <span>Minimum Order Quantity</span>
+              <span className="font-light">{data.quantity} {data.type}</span>
             </div>
           </div>
         </div>
-        <div className="text-2xl font-light border-b border-gray-200 py-2">
+
+        {/* Specifications */}
+        <div className="text-xl sm:text-2xl font-light border-b border-gray-200 py-2">
           {data.description} Product Specifications
         </div>
         <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2 px-6 py-2 flex justify-between items-center text-xl">
-            <div>Physical Form</div>
-            <div className="font-light">{data.physicalForm}</div>
-          </div>
-          <div className="w-full lg:w-1/2 px-6 py-2 flex justify-between items-center text-xl">
-            <div>Drug Type</div>
-            <div className="font-light">{data.drugType}</div>
-          </div>
-          <div className="w-full lg:w-1/2 px-6 py-2 flex justify-between items-center text-xl">
-            <div>Storage Instructions</div>
-            <div className="font-light">{data.storage}</div>
-          </div>
+          {[
+            { label: "Physical Form", value: data.physicalForm },
+            { label: "Drug Type", value: data.drugType },
+            { label: "Storage Instructions", value: data.storage },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="w-full lg:w-1/2 px-4 py-3 text-base sm:text-xl"
+            >
+              <div className="flex flex-col sm:flex-row justify-between gap-1 sm:gap-4">
+                <span className="font-semibold">{item.label}</span>
+                <span className="font-light">{item.value}</span>
+              </div>
+            </div>
+          ))}
         </div>
-        <div className="text-2xl font-light border-b border-gray-200 py-2">
+
+        {/* Trade Info */}
+        <div className="text-xl sm:text-2xl font-light border-b border-gray-200 py-2">
           {data.description} Trade Information
         </div>
         <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2 px-6 py-2 flex justify-between items-center text-xl">
-            <div>Payment Terms</div>
-            <div className="font-light">Cash in Advance (CID)</div>
-          </div>
-          <div className="w-full lg:w-1/2 px-6 py-2 flex justify-between items-center text-xl">
-            <div>Supply Ability</div>
-            <div className="font-light">{data.supplyAbility}</div>
-          </div>
-          <div className="w-full lg:w-1/2 px-6 py-2 flex justify-between items-center text-xl">
-            <div>Delivery Time</div>
-            <div className="font-light">2-4 Days</div>
-          </div>
-          <div className="w-full lg:w-1/2 px-6 py-2 flex justify-between items-center text-xl">
-            <div>Main Domestic Market</div>
-            <div className="font-light">All India</div>
-          </div>
+          {[
+            { label: "Payment Terms", value: "Cash in Advance (CID)" },
+            { label: "Supply Ability", value: data.supplyAbility },
+            { label: "Delivery Time", value: "2-4 Days" },
+            { label: "Main Domestic Market", value: "All India" },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="w-full lg:w-1/2 px-4 py-3 text-base sm:text-xl"
+            >
+              <div className="flex flex-col sm:flex-row justify-between gap-1 sm:gap-4">
+                <span className="font-semibold">{item.label}</span>
+                <span className="font-light">{item.value}</span>
+              </div>
+            </div>
+          ))}
         </div>
-        <div className="text-2xl font-light border-b border-gray-200 py-2">
+
+        {/* Description */}
+        <div className="text-xl sm:text-2xl font-light border-b border-gray-200 py-2">
           Product Description
         </div>
-        <div className="text-xl font-light">{data.productDescription}</div>
+        <div className="text-base sm:text-xl font-light px-4">{data.productDescription}</div>
       </div>
+
 
       <div className="pt-10 text-3xl">
         Other Popular Products on our Website
@@ -182,15 +195,15 @@ function SpecificProduct() {
           breakpoints={{
             0: {
               slidesPerView: 1,
-              spaceBetween:10
+              spaceBetween: 10
             },
             640: {
               slidesPerView: 2,
-              spaceBetween:20
+              spaceBetween: 20
             },
             1024: {
               slidesPerView: 3,
-              spaceBetween:30
+              spaceBetween: 30
             },
           }}
           className="mySwiper"
